@@ -1,0 +1,92 @@
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f3f3f3; 
+  min-height:101%;
+
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+div.form-group{
+	margin-bottom:5px;
+}
+
+div.form-group label{
+	margin-bottom:2px;
+	font-size:12px;
+}
+
+/*Tabs*/
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #dedede;
+}
+.tab-pane.active{
+	padding 10px 0;
+	background:#FFF;
+	border-bottom:#ddd 1px solid;	
+	border-left:#ddd 1px solid;	
+}
+
+.tab-pane.active table{
+	position:relative;
+	right:15px;
+	width:100%;
+}
+
+.nav-tabs>li.active>a:focus{
+	outline:none;
+}
+
+table.dataTable thead th, table.dataTable thead th.sorting, {
+	background-color:#323232;
+	background:#323232;
+}
+
+.btn, .form-control, .input-group-addon,input{border-radius:0; moz-border-radius:0;}
+
+.input-group-addon{
+	background:#EEE;
+}

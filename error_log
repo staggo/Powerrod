@@ -1,0 +1,2 @@
+[16-Jun-2014 11:04:59 UTC] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/staggoco/public_html/prod/application/controllers/reports.php on line 26
+[18-Jun-2014 10:06:39 UTC] PHP Fatal error:  Call to undefined method Customer_Model::insert_engineer() in /home/staggoco/public_html/prod/application/controllers/customer.php on line 58
